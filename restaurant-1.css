@@ -50,50 +50,6 @@ a.active, a:hover{
 #check{
 	display: none;
 }
-@media(max-width: 952px){
-	nav{
-		height: 500px;
-	}
-	label.logo{
-		font-size: 30px;
-		padding-left: 50px;
-		margin-top: 0px;
-	}
-	nav ul li a{
-		font-size: 16px;
-	}
-}
-@media(max-width: 858px){
-	.checkbtn{
-		display: block;
-	}
-	ul{
-		position: fixed;
-		width: 100%;
-		height: 100vh;
-		left: -100%;
-		text-align: center;
-		transition: all .5s;
-	}
-	nav ul li{
-		display: block;
-		margin: 50px 0;
-		line-height: 30px;
-	}
-	nav ul li a{
-		font-size: 20px;
-	}
-	a:hover, a:active{
-		color: black;
-		background-color: white;
-		transition: .5s;
-		text-decoration: none !important;
-		color: black !important;
-	}
-	#check:checked ~ ul{
-		left: 0;
-	}
-}
 .anasehife{
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%),url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
 	width: 100%;
@@ -135,22 +91,6 @@ a.active, a:hover{
 #yazi1 p{
 	font-size: 20px;
 }
-@media (max-width: 1024px){
-	#sekil1 img{
-		border-radius: 0px !important;
-		width: 100% !important;
-		margin-left: 15px;
-	}
-	#yazi1 {
-		text-align: center;
-	}	
-	#yazi1 p{
-		text-align: left;
-		margin-left: 50px;
-	}
-}
-
-
 #icon-yemek{
 	text-align: center;
 }
@@ -190,12 +130,6 @@ a.active, a:hover{
 .carousel-control-next{
 	background: transparent !important;
 }
-/*.button-x i{
-	margin-left: 90%;
-}
-.button-x i:hover{
-	cursor: pointer;
-}*/
 .promise{
 	background: url(https://images.unsplash.com/photo-1543738066-f1b819c5f69d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1005&q=80);
 	width: 100%;
@@ -225,11 +159,6 @@ a.active, a:hover{
 	font-size: 20px;
 	color: black;
 	margin-top: 30px;
-}
-@media (max-width: 1024px){
-	#agreng{
-		height: 400px;
-	}
 }
 .servis h1{
 	font-size: 60px;
@@ -295,22 +224,6 @@ a.active, a:hover{
 #chef1 h3,p{
 	color: #ac4b1c;
 }
-@media (max-width: 1024px){	
-	#chef1 img:hover{
-		transform: scale(1);
-		cursor: pointer;
-	}
-	.yemek4 img{
-		width: 100% !important;
-		height: 350px;
-		margin-top: 20px;
-	}	
-	.yemek4 img:hover{
-		width: 100% !important;
-		height: 350px;
-	}
-}
-
 .container{
 	margin-top: 50px;
 }
@@ -450,29 +363,6 @@ a.active, a:hover{
     margin-top: 55px;
     margin-left: -95px;  
 }
-@media (max-width: 1024px){	
-	#yemek2 h1{
-		margin-top: 80px !important;
-	}
-	#yemek1 img{
-		width: 80% !important;
-		margin-top: 80px !important;
-		margin-left: 50px;
-	}
-	#yemek2 h1{
-		margin-top: 50px !important;
-	}
-	#yemek2 input{
-		float: left;
-	}
-	#yemek2 button{
-		float: left;
-	}
-}
-
-
-
-
 #modalok{
 	margin-top: 130px;
 	margin-left: 13%;
@@ -644,9 +534,6 @@ a.active, a:hover{
 #melumat .button2 i:hover{
 	cursor: pointer;
 }
-
-
-
 .information{
 	float: left;
 	width: 100%;
@@ -708,9 +595,6 @@ a.active, a:hover{
 	background-color: white;
 	border: 1px solid  #f5b971; 
 }
-
-
-
 .blog{
 	float: left;
 	width: 100%;
@@ -779,7 +663,6 @@ a.active, a:hover{
 	background-size: cover;
 	background-position: center;
 }
-
 .wrapper h1{
 	font-size: 60px;
 	text-align: center;
@@ -843,4 +726,155 @@ a.active, a:hover{
 	float: right;
 	color: #ac4b1c;
 	font-style: italic;
+}
+@media screen and (min-width: 319px) and (max-width: 500px){
+	.anasehife{
+		margin-top: 40px;
+		width: 100%;
+	}
+	label.logo{
+		width: 60%;
+		padding: 0 25px;
+		font-size: 30px;
+	}
+	.basliq h1{
+		font-size: 50px;
+		margin-top: 200px;
+	}
+	#sekil1 img{
+		margin-left: 70px;
+	}
+	#yazi1{
+		margin-left: 15%;
+	}
+	#yazi1 pre{
+		margin-left: 10%;
+	}
+	#icon-yemek {
+		margin-top: 0px !important;
+	}
+	#sea, #coffee, #meat{
+		margin-top: 30px;
+	}
+	#agreng{
+		width: 80%;
+		height: 300px;
+		margin-left: 10%;	
+	}
+	#agreng p{
+		font-size: 15px;
+		text-align: justify;
+	}
+	.servis h1{
+		margin-top: 50px;
+	}
+	.chef h1{
+		margin-top: 800px;
+	}
+	.blog h1{
+		margin-top: 50px;
+	}
+	#bl{
+		margin-top: 10px !important;
+	}
+	.yasil{
+		width: 110px;
+	}
+	.resert img{
+		margin-top: 100px;
+		margin-left: 8%;
+	}
+	#in h1{
+		margin-top: 100px;
+	}
+	#in{
+		margin-left: 8%;
+	}
+	.information h2{
+		text-align: center;
+	}
+	#box{
+		margin-left: 10%;
+	}
+	#box button{
+		margin-top: 20px;
+	}
+	#mp{
+		margin-top: 600px;
+	}
+	#inn{
+		margin-left: 10%;
+		margin-top: 70px;
+	}
+	.sonhisse{
+		margin-top: 1650px;
+		height: 1200px;
+	}
+}
+@media screen and (min-width: 501px) and (max-width: 601px){
+	label.logo{
+		width: 60%;
+		margin-left: 0px;
+		padding: 0 25px;
+		/* font-size: 30px; */
+	}
+	.anasehife{
+		margin-top: 40px;
+		width: 100%;
+	}
+	#yazi1{
+		/* margin-top: 100px; */
+		margin-left: 30%;
+	}
+	#sekil1 img{
+		width: 400px;
+	}
+	.sonhisse{
+		margin-top: 900px;
+		height: 800px;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 991px){
+	#sekil1 img{
+		float: left;
+		margin-left: 0;
+	}
+	#agreng{
+		height: 900px !important;
+	}
+	.sonhisse{
+		margin-top: 700px;
+		height: 600px;
+	}
+}
+@media(max-width: 858px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	a:hover, a:active{
+		color: black;
+		background-color: white;
+		transition: .5s;
+		text-decoration: none !important;
+		color: black !important;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
 }
