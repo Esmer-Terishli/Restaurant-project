@@ -1,7 +1,7 @@
 <h1>Restaurant website</h1>
 
 <h1>Live Demo</h1>
-- 📄 [https://esmer-terishli.github.io/Restaurant-project/].
+- 📄 [https://esmer-terishli.github.io/restaurant-project/].
 
 <h1>Project Features</h1>
 <ul>
