@@ -31,3 +31,6 @@
 
 <h1>Screenshots</h1>
 <img src="https://i.imgur.com/RwzP0wo.jpg">
+<img src="https://i.imgur.com/xKzah02.png">
+<img src="https://i.imgur.com/PsnvJgw.png">
+<img src="https://i.imgur.com/dOSNMRz.png">
