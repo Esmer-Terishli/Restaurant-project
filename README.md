@@ -28,3 +28,6 @@
   </li>
   <li>Open the index.html file in a web browser to view the project.</li>
 </ol>
+
+<h1>Screenshots</h1>
+<img src="![WhatsApp Image 2024-02-02 at 16 41 26_854b38e1](https://github.com/Esmer-Terishli/restaurant-project/assets/100664366/e8ce2c26-6881-447a-b50c-0f3cd3d0ed5a)">
